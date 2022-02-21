@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="894999ea-03d7-472b-9410-352ce1647e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/Util2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/LoginStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/Util2Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/UtilStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testEjercicio2/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testEjercicio3/TestLoginStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Gradle" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.TestDescuento">
+  <component name="RunManager" selected="JUnit.TestLogin">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Primer-parcial-QA.test" />
       <extension name="coverage">
@@ -88,6 +94,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Primer-parcial-QA.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testEjercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testEjercicio2" />
+      <option name="MAIN_CLASS_NAME" value="testEjercicio2.TestLogin" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.verifyLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Primer-parcial-QA.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testEjercicio2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testEjercicio2" />
+      <option name="MAIN_CLASS_NAME" value="testEjercicio2.TestLogin" />
+      <option name="METHOD_NAME" value="verifyLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -100,9 +137,13 @@
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.Test1" />
       <item itemvalue="JUnit.TestDescuento" />
+      <item itemvalue="JUnit.TestLogin.verifyLogin" />
+      <item itemvalue="JUnit.TestLogin" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLogin" />
+        <item itemvalue="JUnit.TestLogin.verifyLogin" />
         <item itemvalue="JUnit.TestDescuento" />
         <item itemvalue="JUnit.Test1" />
       </list>
