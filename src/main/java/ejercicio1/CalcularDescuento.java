@@ -5,9 +5,9 @@ public class CalcularDescuento {
         if(sueldo>0 && sueldo<=2000){
             return sueldo;
         }else if(sueldo>2000 && sueldo<=4000){
-            return (int) (sueldo*0.5);
+            return sueldo - sueldo*5/100;
         }else if (sueldo>4000){
-            return (int) (sueldo*0.15);
+            return sueldo - sueldo*15/100;
         }else {
             throw new Exception("ERROR, el sueldo ingresado es incorrecto");
         }

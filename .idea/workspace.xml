@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="894999ea-03d7-472b-9410-352ce1647e34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/CalcularDescuento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/_enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio2/_enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ejercicio3/_enunciado" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testEjercicio1/TestDescuento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prueba/Prueba1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prueba/Utils1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pruebaTest/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ejercicio1/CalcularDescuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ejercicio1/CalcularDescuento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testEjercicio1/TestDescuento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testEjercicio1/TestDescuento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +57,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Gradle" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="JUnit.Test1">
+  <component name="RunManager" selected="JUnit.TestDescuento">
     <configuration name="Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Primer-parcial-QA.test" />
       <extension name="coverage">
@@ -82,6 +68,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="pruebaTest" />
       <option name="MAIN_CLASS_NAME" value="pruebaTest.Test1" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDescuento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Primer-parcial-QA.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testEjercicio1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testEjercicio1" />
+      <option name="MAIN_CLASS_NAME" value="testEjercicio1.TestDescuento" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,9 +99,11 @@
     <list>
       <item itemvalue="JUnit.Unnamed" />
       <item itemvalue="JUnit.Test1" />
+      <item itemvalue="JUnit.TestDescuento" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDescuento" />
         <item itemvalue="JUnit.Test1" />
       </list>
     </recent_temporary>
