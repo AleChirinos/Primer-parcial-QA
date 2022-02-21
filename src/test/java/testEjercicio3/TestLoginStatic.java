@@ -2,6 +2,7 @@ package testEjercicio3;
 
 import ejercicio2.Login;
 import ejercicio2.Util2;
+import ejercicio3.LoginStatic;
 import ejercicio3.Util2Static;
 import ejercicio3.UtilStatic;
 import org.junit.jupiter.api.Assertions;
@@ -30,7 +31,7 @@ public class TestLoginStatic {
 
     @Test
     public void inicioSesionFallido(){
-        Login login=new Login();
+        LoginStatic login=new LoginStatic();
         String expected="El usuario no existe";
         String actual=login.roleUser("test1", "123");
         Assertions.assertTrue(actual.contains(expected),"Error");
@@ -38,28 +39,28 @@ public class TestLoginStatic {
 
     @Test
     public void inicioSesionCRUD(){
-        Login login=new Login();
+        LoginStatic login=new LoginStatic();
         String expected="El usuario no existe";
         String actual=login.roleUser("test2", "123");
         Assertions.assertTrue(actual.contains(expected),"Error");
     }
     @Test
     public void inicioSesionCUD(){
-        Login login=new Login();
+        LoginStatic login=new LoginStatic();
         String expected="El usuario no existe";
         String actual=login.roleUser("test3", "123");
         Assertions.assertTrue(actual.contains(expected),"Error");
     }
     @Test
     public void inicioSesionCD(){
-        Login login=new Login();
+        LoginStatic login=new LoginStatic();
         String expected="El usuario no existe";
         String actual=login.roleUser("test4", "123");
         Assertions.assertTrue(actual.contains(expected),"Error");
     }
     @Test
     public void inicioSesionR(){
-        Login login=new Login();
+        LoginStatic login=new LoginStatic();
         String expected="El usuario no existe";
         String actual=login.roleUser("test5", "123");
         Assertions.assertTrue(actual.contains(expected),"Error");
